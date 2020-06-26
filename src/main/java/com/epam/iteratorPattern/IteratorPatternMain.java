@@ -6,7 +6,7 @@ public class IteratorPatternMain {
 
         for(Iterator iterator = obj.getIterator(); iterator.hasNext();){
             String name = (String)iterator.next();
-            System.out.println("Dessert Name : " + name);
+            System.out.println("Dessert Name: " + name);
         }
     }
 }

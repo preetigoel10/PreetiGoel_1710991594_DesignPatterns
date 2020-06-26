@@ -10,6 +10,6 @@ public class AnimalCharacter {
         System.out.print("Choose one:\nDog\nCat\nElephant\nEnter the name of animal whose characteristics you want:");
         String animalName=sc.next();
         Animal p = animalFactory.getAnimal(animalName);
-        System.out.println(animalName+" is a "+p.getFoodType()+" ,it is "+p.getSize()+" in size and it "+p.getSound());
+        System.out.println(animalName.toUpperCase()+" is a "+p.getFoodType()+",it is "+p.getSize()+" in size and it "+p.getSound());
     }
 }
